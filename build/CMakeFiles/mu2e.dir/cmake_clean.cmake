@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mu2e.dir/main.cc.o"
+  "CMakeFiles/mu2e.dir/main.cc.o.d"
+  "CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o"
+  "CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o.d"
+  "CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o"
+  "CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o.d"
+  "CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o"
+  "CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "mu2e"
+  "mu2e.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mu2e.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
