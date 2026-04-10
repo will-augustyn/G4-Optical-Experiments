@@ -31,7 +31,7 @@ int main(int argc, char** argv){
     //meaning they want to run in interactive mode
     if (argc == 1){
         G4UIExecutive* ui = new G4UIExecutive(argc, argv); //launch a terminal that lets us type geant commands in 
-        // UImanager->ApplyCommand("/control/execute init.mac"); //optional line that lets us set up a starting visualization file
+        UImanager->ApplyCommand("/control/execute init_vis.mac"); //optional line that lets us set up a starting visualization file
         ui->SessionStart(); //actually start terminal 
         delete ui; // once session is done, clean up the memory 
     }

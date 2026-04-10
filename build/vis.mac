@@ -1,0 +1,22 @@
+/vis/open
+/vis/viewer/set/autoRefresh false
+/vis/verbose errors
+
+/vis/drawVolume
+/vis/viewer/set/style surface
+/vis/viewer/set/viewpointThetaPhi 120 150
+/vis/scene/add/axes
+
+#### Might need this, not sure 
+#####/tracking/storeTrajectory 1
+
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+
+/vis/viewer/set/autoRefresh true
+/vis/verbose warnings
+
+###Note: we turn autoRefresh off for setting everything up because if we didn't then after every change the scene would reset
+####turn it back on later because now we do want to see updates after every change. 
+
+/run/beamOn 10

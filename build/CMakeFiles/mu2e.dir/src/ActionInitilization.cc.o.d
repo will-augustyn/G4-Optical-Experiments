@@ -279,4 +279,7 @@ CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrajectoryContainer.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTrajectory.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserEventInformation.hh \
- /home/will04/geant4_work/mu2e/include/PrimaryGeneratorAction.hh
+ /home/will04/geant4_work/mu2e/include/PrimaryGeneratorAction.hh \
+ /home/will04/geant4_work/mu2e/include/RunAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserRunAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Run.hh

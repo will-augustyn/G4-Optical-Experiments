@@ -9,3 +9,15 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 add_executable(mu2e main.cc ${sources} ${headers})
 target_include_directories(mu2e PRIVATE include)
 target_link_libraries(mu2e PRIVATE ${Geant4_LIBRARIES})
+
+set(EXAMPLEB1_SCRIPTS
+  init_vis.mac
+  )
+
+foreach(_script ${EXAMPLEB1_SCRIPTS})
+  configure_file(
+    ${PROJECT_SOURCE_DIR}/${_script}
+    ${PROJECT_BINARY_DIR}/${_script}
+    COPYONLY
+    )
+endforeach()

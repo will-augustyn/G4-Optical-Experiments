@@ -341,4 +341,9 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.icc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4PVPlacement.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/graphics_reps_defs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Colour.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.icc

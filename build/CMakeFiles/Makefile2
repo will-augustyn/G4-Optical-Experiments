@@ -81,12 +81,12 @@ clean: CMakeFiles/mu2e.dir/clean
 CMakeFiles/mu2e.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target mu2e"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target mu2e"
 .PHONY : CMakeFiles/mu2e.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mu2e.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/mu2e/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/mu2e/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mu2e.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/mu2e/build/CMakeFiles 0
 .PHONY : CMakeFiles/mu2e.dir/rule

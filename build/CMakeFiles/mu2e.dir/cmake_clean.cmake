@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o.d"
   "CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o"
   "CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o.d"
+  "CMakeFiles/mu2e.dir/src/RunAction.cc.o"
+  "CMakeFiles/mu2e.dir/src/RunAction.cc.o.d"
   "mu2e"
   "mu2e.pdb"
 )
