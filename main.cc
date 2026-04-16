@@ -13,11 +13,12 @@ int main(int argc, char** argv){
     // & manages event loops within a run
 
     // set mandatory initialization classes
-    runManager->SetUserInitialization(new DetectorConstruction());
+    auto detConstruction = new DetectorConstruction();
+    runManager->SetUserInitialization(detConstruction);
     auto PhysicsList = new FTFP_BERT; 
     runManager->SetUserInitialization(PhysicsList);
 
-    runManager->SetUserInitialization(new ActionInitialization);
+    runManager->SetUserInitialization(new ActionInitialization(detConstruction));
 
     // initialize G4 kernel
     runManager->Initialize();

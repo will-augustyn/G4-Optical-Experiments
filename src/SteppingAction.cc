@@ -11,5 +11,11 @@ SteppingAction::SteppingAction(const DetectorConstruction* detConstruction, Even
 SteppingAction::~SteppingAction(){}; 
 
 void SteppingAction::UserSteppingAction(const G4Step* step){
-    
+    auto volume = step->GetPreStepPoint()->GetTouchableHandle()->GetVolume();
+    auto KEdep = step->GetPreStepPoint()->GetKineticEnergy();
+
+    if (volume == fDetConstruction->GetDetectorPhysicalVolume()){
+        G4cout << KEdep << G4endl; 
+        fEventAction->addKE(KEdep);//add energy via an inline function in the event action class
+    }
 }

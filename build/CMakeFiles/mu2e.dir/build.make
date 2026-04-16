@@ -111,10 +111,24 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/mu2e/src/DetectorConstruction.cc -o CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.s
 
+CMakeFiles/mu2e.dir/src/EventAction.cc.o: CMakeFiles/mu2e.dir/flags.make
+CMakeFiles/mu2e.dir/src/EventAction.cc.o: /home/will04/geant4_work/mu2e/src/EventAction.cc
+CMakeFiles/mu2e.dir/src/EventAction.cc.o: CMakeFiles/mu2e.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mu2e.dir/src/EventAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mu2e.dir/src/EventAction.cc.o -MF CMakeFiles/mu2e.dir/src/EventAction.cc.o.d -o CMakeFiles/mu2e.dir/src/EventAction.cc.o -c /home/will04/geant4_work/mu2e/src/EventAction.cc
+
+CMakeFiles/mu2e.dir/src/EventAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mu2e.dir/src/EventAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will04/geant4_work/mu2e/src/EventAction.cc > CMakeFiles/mu2e.dir/src/EventAction.cc.i
+
+CMakeFiles/mu2e.dir/src/EventAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mu2e.dir/src/EventAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/mu2e/src/EventAction.cc -o CMakeFiles/mu2e.dir/src/EventAction.cc.s
+
 CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/mu2e.dir/flags.make
 CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o: /home/will04/geant4_work/mu2e/src/PrimaryGeneratorAction.cc
 CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/mu2e.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o -c /home/will04/geant4_work/mu2e/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 CMakeFiles/mu2e.dir/src/RunAction.cc.o: CMakeFiles/mu2e.dir/flags.make
 CMakeFiles/mu2e.dir/src/RunAction.cc.o: /home/will04/geant4_work/mu2e/src/RunAction.cc
 CMakeFiles/mu2e.dir/src/RunAction.cc.o: CMakeFiles/mu2e.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mu2e.dir/src/RunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mu2e.dir/src/RunAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mu2e.dir/src/RunAction.cc.o -MF CMakeFiles/mu2e.dir/src/RunAction.cc.o.d -o CMakeFiles/mu2e.dir/src/RunAction.cc.o -c /home/will04/geant4_work/mu2e/src/RunAction.cc
 
 CMakeFiles/mu2e.dir/src/RunAction.cc.i: cmake_force
@@ -139,13 +153,29 @@ CMakeFiles/mu2e.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mu2e.dir/src/RunAction.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/mu2e/src/RunAction.cc -o CMakeFiles/mu2e.dir/src/RunAction.cc.s
 
+CMakeFiles/mu2e.dir/src/SteppingAction.cc.o: CMakeFiles/mu2e.dir/flags.make
+CMakeFiles/mu2e.dir/src/SteppingAction.cc.o: /home/will04/geant4_work/mu2e/src/SteppingAction.cc
+CMakeFiles/mu2e.dir/src/SteppingAction.cc.o: CMakeFiles/mu2e.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mu2e.dir/src/SteppingAction.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mu2e.dir/src/SteppingAction.cc.o -MF CMakeFiles/mu2e.dir/src/SteppingAction.cc.o.d -o CMakeFiles/mu2e.dir/src/SteppingAction.cc.o -c /home/will04/geant4_work/mu2e/src/SteppingAction.cc
+
+CMakeFiles/mu2e.dir/src/SteppingAction.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mu2e.dir/src/SteppingAction.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/will04/geant4_work/mu2e/src/SteppingAction.cc > CMakeFiles/mu2e.dir/src/SteppingAction.cc.i
+
+CMakeFiles/mu2e.dir/src/SteppingAction.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mu2e.dir/src/SteppingAction.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/will04/geant4_work/mu2e/src/SteppingAction.cc -o CMakeFiles/mu2e.dir/src/SteppingAction.cc.s
+
 # Object files for target mu2e
 mu2e_OBJECTS = \
 "CMakeFiles/mu2e.dir/main.cc.o" \
 "CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o" \
 "CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o" \
+"CMakeFiles/mu2e.dir/src/EventAction.cc.o" \
 "CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o" \
-"CMakeFiles/mu2e.dir/src/RunAction.cc.o"
+"CMakeFiles/mu2e.dir/src/RunAction.cc.o" \
+"CMakeFiles/mu2e.dir/src/SteppingAction.cc.o"
 
 # External object files for target mu2e
 mu2e_EXTERNAL_OBJECTS =
@@ -153,8 +183,10 @@ mu2e_EXTERNAL_OBJECTS =
 mu2e: CMakeFiles/mu2e.dir/main.cc.o
 mu2e: CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o
 mu2e: CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o
+mu2e: CMakeFiles/mu2e.dir/src/EventAction.cc.o
 mu2e: CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o
 mu2e: CMakeFiles/mu2e.dir/src/RunAction.cc.o
+mu2e: CMakeFiles/mu2e.dir/src/SteppingAction.cc.o
 mu2e: CMakeFiles/mu2e.dir/build.make
 mu2e: /home/will04/geant4-v11.3.1-install/lib/libG4Tree.so
 mu2e: /home/will04/geant4-v11.3.1-install/lib/libG4FR.so
@@ -194,7 +226,7 @@ mu2e: /home/will04/geant4-v11.3.1-install/lib/libG4global.so
 mu2e: /home/will04/geant4-v11.3.1-install/lib/libG4clhep.so
 mu2e: /home/will04/geant4-v11.3.1-install/lib/libG4ptl.so.3.0.0
 mu2e: CMakeFiles/mu2e.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable mu2e"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/will04/geant4_work/mu2e/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable mu2e"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mu2e.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

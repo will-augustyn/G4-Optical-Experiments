@@ -10,7 +10,7 @@ class G4Step;
 class DetectorConstruction; 
 class EventAction;
 
-class SteppingAction : G4UserSteppingAction {
+class SteppingAction : public G4UserSteppingAction {
     public:
         SteppingAction(const DetectorConstruction* detConstruction, EventAction* eventAction);
         //note naming the memeber vairables here is different from what we've done in the past, it's just for readability

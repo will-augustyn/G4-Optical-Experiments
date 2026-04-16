@@ -64,7 +64,7 @@ G4VPhysicalVolume *DetectorConstruction::DefineVolumes()
 
     G4Box *detSolid = new G4Box("Detector Solid", det_x, det_y, det_z);
     G4LogicalVolume *detLog = new G4LogicalVolume(detSolid, detMat, "Detector Logical");
-    G4PVPlacement *detPlacement = new G4PVPlacement(0, G4ThreeVector(0, 0, 30 * cm), detLog, "World Placement", worldLog, false, 0);
+    fDetectorPhysicalVolume = new G4PVPlacement(0, G4ThreeVector(0, 0, 30 * cm), detLog, "Detector Placement", worldLog, false, 0);
 
     worldLog->SetVisAttributes(G4VisAttributes::GetInvisible());
     detLog->SetVisAttributes(G4VisAttributes(G4Colour::Blue()));

@@ -11,7 +11,7 @@
 class PrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction {
     public:
         PrimaryGeneratorAction(
-            const G4String& particleName = "geantino", //& makes a reference to a string
+            const G4String& particleName = "e-", //& makes a reference to a string
             G4double energy = 3.*MeV,
             G4ThreeVector position= G4ThreeVector(0,0,0),
             G4ThreeVector momentumDirection = G4ThreeVector(0,0,1)
