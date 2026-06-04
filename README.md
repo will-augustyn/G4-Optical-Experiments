@@ -1,0 +1,1 @@
+This is a basic Geant4 sandbox that contains a particle gun, a simple detector and world geometry, and basic stpping/run action and histogram creation. This codebase SHOULD NOT be modified. Rather, whenever I want to test a new feature, this repo should be cloned then new features can be tested from there. 
