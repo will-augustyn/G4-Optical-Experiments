@@ -1,5 +1,5 @@
-#ifndef Mu2eDetectorConstruction_h
-#define Mu2eDetectorConstruction_h 1
+#ifndef OpticalPropertiesDetectorConstruction_h
+#define OpticalPropertiesDetectorConstruction_h 1
 
 #include "G4VUserDetectorConstruction.hh"
 #include "G4Material.hh"

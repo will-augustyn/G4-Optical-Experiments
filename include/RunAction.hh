@@ -1,5 +1,5 @@
-#ifndef Mu2eRunAction_HH
-#define Mu2eRunAction_HH 1
+#ifndef OpticalPropertiesRunAction_HH
+#define OpticalPropertiesRunAction_HH 1
 
 #include "G4UserRunAction.hh"
 #include "G4Run.hh"

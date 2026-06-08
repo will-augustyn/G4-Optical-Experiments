@@ -1,5 +1,5 @@
-#ifndef Mu2eSteepingAction_HH
-#define Mu2eSteepingAction_HH 1
+#ifndef OpticalPropertiesSteppingAction_HH
+#define OpticalPropertiesSteppingAction_HH 1
 
 #include "G4UserSteppingAction.hh"
 #include "G4Step.hh"

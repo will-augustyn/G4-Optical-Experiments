@@ -1,5 +1,5 @@
-#ifndef MU2E_Action_Init_HH
-#define MU2E_Action_Init_HH 1
+#ifndef Optical_Properties_Action_Init_HH
+#define Optical_Properties_Action_Init_HH 1
 
 #include "G4VUserActionInitialization.hh"
 #include "PrimaryGeneratorAction.hh"

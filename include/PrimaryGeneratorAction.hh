@@ -1,5 +1,5 @@
-#ifndef Mu2ePrimaryGeneratorAction_h
-#define Mu2ePrimaryGeneratorAction_h 1
+#ifndef OpticalpropertiesPrimaryGeneratorAction_h
+#define OpticalPropertiesPrimaryGeneratorAction_h 1
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 #include "globals.hh"

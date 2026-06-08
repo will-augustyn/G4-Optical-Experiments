@@ -1,5 +1,5 @@
-#ifndef EventAction_HH
-#define EventAction_HH 1
+#ifndef OpticalPropertiesEventAction_HH
+#define OpticalPropertiesEventAction_HH 1
 
 #include "G4UserEventAction.hh"
 #include "G4Event.hh"
