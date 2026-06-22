@@ -19,11 +19,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/will04/geant4-v11.3.1-install/lib/cmake/Geant4/PTL/PTLConfigVersion.cmake"
   "/home/will04/geant4-v11.3.1-install/lib/cmake/Geant4/PTL/PTLTargets-release.cmake"
   "/home/will04/geant4-v11.3.1-install/lib/cmake/Geant4/PTL/PTLTargets.cmake"
-  "/home/will04/geant4_work/mu2e/CMakeLists.txt"
+  "/home/will04/geant4_work/optical_properties_experiment/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/will04/geant4_work/mu2e/init_vis.mac"
+  "/home/will04/geant4_work/optical_properties_experiment/init_vis.mac"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake"
@@ -113,5 +113,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/mu2e.dir/DependInfo.cmake"
+  "CMakeFiles/optical_photons.dir/DependInfo.cmake"
   )

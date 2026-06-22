@@ -8,6 +8,8 @@
 #include "G4PVPlacement.hh"
 #include "G4ThreeVector.hh"
 #include "G4VisAttributes.hh"
+#include "G4MaterialPropertiesTable.hh"
+#include "G4PhysicalConstants.hh"
 
 // Start by implementing the constructor
 
@@ -40,7 +42,30 @@ void DetectorConstruction::DefineMaterials()
 
     worldMat = nist->FindOrBuildMaterial("G4_AIR");
 
-    detMat = nist->FindOrBuildMaterial("G4_WATER");
+    auto air_mt = new G4MaterialPropertiesTable();
+    air_mt->AddProperty("RINDEX", "Air"); //air is one of the materials with pre-defined properties
+    worldMat->SetMaterialPropertiesTable(air_mt);
+
+    detMat = nist->FindOrBuildMaterial("G4_POLYSTYRENE");
+
+    G4MaterialPropertiesTable *scintillator_mt = new G4MaterialPropertiesTable();
+
+    scintillator_mt->AddConstProperty("SCINTILLATIONYIELD", 10. / MeV);
+    std::vector<G4double> rindex = {1.59, 1.59, 1.59, 1.59};
+    std::vector<G4double> wavelenghts = {550.*nm, 500.*nm, 450.*nm, 410.*nm}; 
+    for (auto& num : wavelenghts){
+        num = h_Planck * c_light / num ; 
+    }
+    std::vector<G4double> intensities = {0.1, 0.5, 1, 0.1};
+    std::vector<G4double> abslength = {4.0*m, 4.0*m, 4.0*m, 4.0*m};
+    scintillator_mt->AddProperty("SCINTILLATIONCOMPONENT1", wavelenghts, intensities);
+    scintillator_mt->AddConstProperty("SCINTILLATIONTIMECONSTANT1", 2.8*ns);
+    scintillator_mt->AddConstProperty("RESOLUTIONSCALE", 1.0);
+    scintillator_mt->AddProperty("RINDEX", wavelenghts, rindex);
+    scintillator_mt->AddProperty("ABSLENGTH", wavelenghts, abslength);
+
+    detMat->SetMaterialPropertiesTable(scintillator_mt);
+
 
     return;
 }
@@ -60,11 +85,11 @@ G4VPhysicalVolume *DetectorConstruction::DefineVolumes()
 
     G4double det_x = 50 * cm;
     G4double det_y = 50 * cm;
-    G4double det_z = 5 * cm;
+    G4double det_z = 10 * cm;
 
     G4Box *detSolid = new G4Box("Detector Solid", det_x, det_y, det_z);
     G4LogicalVolume *detLog = new G4LogicalVolume(detSolid, detMat, "Detector Logical");
-    fDetectorPhysicalVolume = new G4PVPlacement(0, G4ThreeVector(0, 0, 30 * cm), detLog, "Detector Placement", worldLog, false, 0);
+    fDetectorPhysicalVolume = new G4PVPlacement(0, G4ThreeVector(0, 0, 20 * cm), detLog, "Detector Placement", worldLog, false, 0);
 
     worldLog->SetVisAttributes(G4VisAttributes::GetInvisible());
     detLog->SetVisAttributes(G4VisAttributes(G4Colour::Blue()));

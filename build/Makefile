@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/will04/geant4_work/mu2e
+CMAKE_SOURCE_DIR = /home/will04/geant4_work/optical_properties_experiment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/will04/geant4_work/mu2e/build
+CMAKE_BINARY_DIR = /home/will04/geant4_work/optical_properties_experiment/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/mu2e/build/CMakeFiles /home/will04/geant4_work/mu2e/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/optical_properties_experiment/build/CMakeFiles /home/will04/geant4_work/optical_properties_experiment/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/mu2e/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/will04/geant4_work/optical_properties_experiment/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mu2e
+# Target rules for targets named optical_photons
 
 # Build rule for target.
-mu2e: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mu2e
-.PHONY : mu2e
+optical_photons: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 optical_photons
+.PHONY : optical_photons
 
 # fast build rule for target.
-mu2e/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/build
-.PHONY : mu2e/fast
+optical_photons/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/build
+.PHONY : optical_photons/fast
 
 main.o: main.cc.o
 .PHONY : main.o
 
 # target to build an object file
 main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/main.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -142,7 +142,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/main.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -150,7 +150,7 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/main.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/main.cc.s
 .PHONY : main.cc.s
 
 src/ActionInitilization.o: src/ActionInitilization.cc.o
@@ -158,7 +158,7 @@ src/ActionInitilization.o: src/ActionInitilization.cc.o
 
 # target to build an object file
 src/ActionInitilization.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/ActionInitilization.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/ActionInitilization.cc.o
 .PHONY : src/ActionInitilization.cc.o
 
 src/ActionInitilization.i: src/ActionInitilization.cc.i
@@ -166,7 +166,7 @@ src/ActionInitilization.i: src/ActionInitilization.cc.i
 
 # target to preprocess a source file
 src/ActionInitilization.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/ActionInitilization.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/ActionInitilization.cc.i
 .PHONY : src/ActionInitilization.cc.i
 
 src/ActionInitilization.s: src/ActionInitilization.cc.s
@@ -174,7 +174,7 @@ src/ActionInitilization.s: src/ActionInitilization.cc.s
 
 # target to generate assembly for a file
 src/ActionInitilization.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/ActionInitilization.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/ActionInitilization.cc.s
 .PHONY : src/ActionInitilization.cc.s
 
 src/DetectorConstruction.o: src/DetectorConstruction.cc.o
@@ -182,7 +182,7 @@ src/DetectorConstruction.o: src/DetectorConstruction.cc.o
 
 # target to build an object file
 src/DetectorConstruction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/DetectorConstruction.cc.o
 .PHONY : src/DetectorConstruction.cc.o
 
 src/DetectorConstruction.i: src/DetectorConstruction.cc.i
@@ -190,7 +190,7 @@ src/DetectorConstruction.i: src/DetectorConstruction.cc.i
 
 # target to preprocess a source file
 src/DetectorConstruction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/DetectorConstruction.cc.i
 .PHONY : src/DetectorConstruction.cc.i
 
 src/DetectorConstruction.s: src/DetectorConstruction.cc.s
@@ -198,7 +198,7 @@ src/DetectorConstruction.s: src/DetectorConstruction.cc.s
 
 # target to generate assembly for a file
 src/DetectorConstruction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/DetectorConstruction.cc.s
 .PHONY : src/DetectorConstruction.cc.s
 
 src/EventAction.o: src/EventAction.cc.o
@@ -206,7 +206,7 @@ src/EventAction.o: src/EventAction.cc.o
 
 # target to build an object file
 src/EventAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/EventAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/EventAction.cc.o
 .PHONY : src/EventAction.cc.o
 
 src/EventAction.i: src/EventAction.cc.i
@@ -214,7 +214,7 @@ src/EventAction.i: src/EventAction.cc.i
 
 # target to preprocess a source file
 src/EventAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/EventAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/EventAction.cc.i
 .PHONY : src/EventAction.cc.i
 
 src/EventAction.s: src/EventAction.cc.s
@@ -222,7 +222,7 @@ src/EventAction.s: src/EventAction.cc.s
 
 # target to generate assembly for a file
 src/EventAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/EventAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/EventAction.cc.s
 .PHONY : src/EventAction.cc.s
 
 src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
@@ -230,7 +230,7 @@ src/PrimaryGeneratorAction.o: src/PrimaryGeneratorAction.cc.o
 
 # target to build an object file
 src/PrimaryGeneratorAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/PrimaryGeneratorAction.cc.o
 .PHONY : src/PrimaryGeneratorAction.cc.o
 
 src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
@@ -238,7 +238,7 @@ src/PrimaryGeneratorAction.i: src/PrimaryGeneratorAction.cc.i
 
 # target to preprocess a source file
 src/PrimaryGeneratorAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/PrimaryGeneratorAction.cc.i
 .PHONY : src/PrimaryGeneratorAction.cc.i
 
 src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
@@ -246,7 +246,7 @@ src/PrimaryGeneratorAction.s: src/PrimaryGeneratorAction.cc.s
 
 # target to generate assembly for a file
 src/PrimaryGeneratorAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/PrimaryGeneratorAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/PrimaryGeneratorAction.cc.s
 .PHONY : src/PrimaryGeneratorAction.cc.s
 
 src/RunAction.o: src/RunAction.cc.o
@@ -254,7 +254,7 @@ src/RunAction.o: src/RunAction.cc.o
 
 # target to build an object file
 src/RunAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/RunAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/RunAction.cc.o
 .PHONY : src/RunAction.cc.o
 
 src/RunAction.i: src/RunAction.cc.i
@@ -262,7 +262,7 @@ src/RunAction.i: src/RunAction.cc.i
 
 # target to preprocess a source file
 src/RunAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/RunAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/RunAction.cc.i
 .PHONY : src/RunAction.cc.i
 
 src/RunAction.s: src/RunAction.cc.s
@@ -270,7 +270,7 @@ src/RunAction.s: src/RunAction.cc.s
 
 # target to generate assembly for a file
 src/RunAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/RunAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/RunAction.cc.s
 .PHONY : src/RunAction.cc.s
 
 src/SteppingAction.o: src/SteppingAction.cc.o
@@ -278,7 +278,7 @@ src/SteppingAction.o: src/SteppingAction.cc.o
 
 # target to build an object file
 src/SteppingAction.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/SteppingAction.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/SteppingAction.cc.o
 .PHONY : src/SteppingAction.cc.o
 
 src/SteppingAction.i: src/SteppingAction.cc.i
@@ -286,7 +286,7 @@ src/SteppingAction.i: src/SteppingAction.cc.i
 
 # target to preprocess a source file
 src/SteppingAction.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/SteppingAction.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/SteppingAction.cc.i
 .PHONY : src/SteppingAction.cc.i
 
 src/SteppingAction.s: src/SteppingAction.cc.s
@@ -294,7 +294,7 @@ src/SteppingAction.s: src/SteppingAction.cc.s
 
 # target to generate assembly for a file
 src/SteppingAction.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mu2e.dir/build.make CMakeFiles/mu2e.dir/src/SteppingAction.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/optical_photons.dir/build.make CMakeFiles/optical_photons.dir/src/SteppingAction.cc.s
 .PHONY : src/SteppingAction.cc.s
 
 # Help Target
@@ -305,7 +305,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... mu2e"
+	@echo "... optical_photons"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

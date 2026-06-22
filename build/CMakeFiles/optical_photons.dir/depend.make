@@ -1,2 +1,2 @@
-# Empty dependencies file for mu2e.
+# Empty dependencies file for optical_photons.
 # This may be replaced when dependencies are built.

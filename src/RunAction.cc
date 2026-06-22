@@ -10,7 +10,7 @@ RunAction::RunAction(){
 
     analysisManager->SetVerboseLevel(1);
 
-    analysisManager->CreateH1("Edep", "Deposited Energy", 50, 5.*MeV, 12. * MeV);
+    analysisManager->CreateH1("Edep", "Deposited Energy", 50, 1.*MeV, 12. * MeV);
 
 };
 

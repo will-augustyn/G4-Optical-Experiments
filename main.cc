@@ -4,6 +4,7 @@
 #include "G4RunManager.hh"
 #include "G4UIExecutive.hh"
 #include "G4VisExecutive.hh"
+#include "G4OpticalPhysics.hh"
 #include "G4VisManager.hh"
 #include "G4UImanager.hh"
 #include "FTFP_BERT.hh"
@@ -16,6 +17,8 @@ int main(int argc, char** argv){
     auto detConstruction = new DetectorConstruction();
     runManager->SetUserInitialization(detConstruction);
     auto PhysicsList = new FTFP_BERT; 
+    G4OpticalPhysics* opticalPhysics = new G4OpticalPhysics(); 
+    PhysicsList->RegisterPhysics(opticalPhysics);
     runManager->SetUserInitialization(PhysicsList);
 
     runManager->SetUserInitialization(new ActionInitialization(detConstruction));

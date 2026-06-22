@@ -1,13 +1,10 @@
-CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
- /home/will04/geant4_work/mu2e/src/DetectorConstruction.cc \
+CMakeFiles/optical_photons.dir/src/SteppingAction.cc.o: \
+ /home/will04/geant4_work/optical_properties_experiment/src/SteppingAction.cc \
  /usr/include/stdc-predef.h \
- /home/will04/geant4_work/mu2e/include/DetectorConstruction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ios.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Types.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GlobalConfig.hh \
- /usr/include/c++/13/complex \
+ /home/will04/geant4_work/optical_properties_experiment/include/SteppingAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserSteppingAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.hh \
+ /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -18,32 +15,19 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
- /usr/include/c++/13/pstl/pstl_config.h \
- /usr/include/c++/13/bits/cpp_type_traits.h \
- /usr/include/c++/13/ext/type_traits.h /usr/include/c++/13/cmath \
- /usr/include/c++/13/bits/requires_hosted.h /usr/include/math.h \
+ /usr/include/c++/13/pstl/pstl_config.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/time64.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
- /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
- /usr/include/x86_64-linux-gnu/bits/floatn.h \
- /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
- /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
- /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/std_abs.h /usr/include/stdlib.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -66,6 +50,19 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/c++/13/bits/std_abs.h /usr/include/c++/13/cmath \
+ /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/13/bits/specfun.h \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
@@ -91,7 +88,11 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/sstream \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ios.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Types.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4GlobalConfig.hh \
+ /usr/include/c++/13/complex /usr/include/c++/13/sstream \
  /usr/include/c++/13/istream /usr/include/c++/13/ios \
  /usr/include/c++/13/iosfwd /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
@@ -147,9 +148,8 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/stl_construct.h /usr/include/c++/13/string_view \
  /usr/include/c++/13/bits/functional_hash.h \
  /usr/include/c++/13/bits/string_view.tcc \
- /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
- /usr/include/c++/13/cstdio /usr/include/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
@@ -181,8 +181,17 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/c++/13/bits/istream.tcc \
  /usr/include/c++/13/bits/sstream.tcc \
  /home/will04/geant4-v11.3.1-install/include/Geant4/tls.hh \
- /usr/include/c++/13/iostream /usr/include/c++/13/algorithm \
- /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /usr/include/c++/13/bits/quoted_string.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/globals.hh \
+ /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
  /usr/include/c++/13/bits/algorithmfwd.h \
  /usr/include/c++/13/bits/stl_heap.h \
  /usr/include/c++/13/bits/uniform_int_dist.h \
@@ -205,15 +214,7 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Exception.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ExceptionSeverity.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4EnvironmentUtils.hh \
- /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
- /usr/include/c++/13/bits/locale_facets_nonio.h /usr/include/c++/13/ctime \
- /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
- /usr/include/c++/13/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13/bits/locale_conv.h \
- /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/node_handle.h \
  /usr/include/c++/13/bits/stl_map.h \
@@ -226,11 +227,88 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/unique_lock.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/geomdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4RotationMatrix.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomSplitter.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/geomwdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AutoLock.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
+ /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/future \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
+ /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepPoint.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Allocator.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AllocatorPool.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4SteppingControl.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepStatus.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHandle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTouchable.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHistory.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AffineTransform.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Transform3D.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4AffineTransform.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevel.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationLevel.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4NavigationHistory.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TouchableHistory.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Material.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Element.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4ElementTable.hh \
@@ -257,93 +335,46 @@ CMakeFiles/mu2e.dir/src/DetectorConstruction.cc.o: \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4OrderedTable.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4DataVector.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4DataVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /usr/include/assert.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4SystemOfUnits.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomTypes.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomConfig.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4CSGSolid.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSolid.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/geomdefs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Utility/defs.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VSolid.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Polyhedron.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/HepPolyhedron.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4TwoVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Point3D.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Normal3D.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Transform3D.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/LorentzVector.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/AxisAngle.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationInterfaces.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationX.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationY.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Visible.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Box.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4RotationMatrix.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4GeomSplitter.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/geomwdefs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4AutoLock.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Threading.hh \
- /usr/include/c++/13/chrono /usr/include/c++/13/condition_variable \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/future \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/bits/atomic_futex.h /usr/include/c++/13/atomic \
- /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/std_thread.h /usr/include/c++/13/thread \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistManager.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ICRU90StoppingData.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4StepPoint.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/trkdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ElectronOccupancy.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/pwdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4LorentzVector.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PDefManager.hh \
+ /usr/include/c++/13/stdlib.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleDefinition.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4ParticleMomentum.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DynamicParticle.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrackStatus.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserTrackInformation.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PhysicsModelCatalog.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Track.icc \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Step.hh \
+ /home/will04/geant4_work/optical_properties_experiment/include/DetectorConstruction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/will04/geant4-v11.3.1-install/include/Geant4/G4Material.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistElementBuilder.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Pow.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Exp.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Region.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4LogicalVolume.icc \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4PVPlacement.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4ThreeVector.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/graphics_reps_defs.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Colour.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4Color.hh \
- /home/will04/geant4-v11.3.1-install/include/Geant4/G4VisAttributes.icc
+ /home/will04/geant4_work/optical_properties_experiment/include/EventAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserEventAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Event.hh \
+ /usr/include/c++/13/set /usr/include/c++/13/bits/stl_set.h \
+ /usr/include/c++/13/bits/stl_multiset.h \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/evtdefs.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryVertex.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4PrimaryParticle.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VHitsCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4DCofThisEvent.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VDigiCollection.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4TrajectoryContainer.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VTrajectory.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4VUserEventInformation.hh \
+ /home/will04/geant4_work/optical_properties_experiment/include/DetectorConstruction.hh \
+ /home/will04/geant4_work/optical_properties_experiment/include/RunAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4UserRunAction.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Run.hh \
+ /home/will04/geant4-v11.3.1-install/include/Geant4/G4Electron.hh
